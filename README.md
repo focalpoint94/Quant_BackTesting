@@ -1,2 +1,10 @@
-# Quant_BackTesting
-매매 알고리즘 BackTesting
+
+# Quant BackTesting
+
+## LowPBR_LowDebt
+- Low PBR/PER 조건과 Low 부채 비율 조건을 동시에 만족하는 주식을 매수하는 알고리즘을 백테스트
+- debt_ratio.py: OpenDartReader를 이용하여 부채 비율을 산출하는 예제
+- valued_stock_PBR.py: Low PBR + Low Debt Ratio 매수 알고리즘에 대한 백테스트 (HyperParameters: start_year: 투자 시작 연도, end_year: 투자 종료 연됴, PBR_upper_threshold: PBR 상한, PBR_lower_threshold: PBR 하한, debt_ratio_threshold: 부채 비율 상한, num_stock_limit: 최대 매수 종목 수, upper_yield_limit: 익절 수익률, lower_yield_limit: 손절 수익률, duration: 보유 기간(yr))
+- valued_stock_PER.py: Low PER + Low Debt Ratio 매수 알고리즘에 대한 백테스트 (HyperParamters: 상기 동일)
+
+## asdf
